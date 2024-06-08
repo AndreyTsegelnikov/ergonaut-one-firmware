@@ -29,7 +29,7 @@
 &mt LGUI RBKT           &kp Q  &kp W  &kp E      &kp R             &kp T      &kp Y        &kp U           &kp I      &kp O    &kp P     &mt RIGHT_WIN LBKT
 &mt LEFT_ALT GRAVE      &kp A  &kp S  &kp D      &kp F             &kp G      &kp H        &kp J           &kp K      &kp L    &kp SEMI  &mt RIGHT_ALT SQT
 &mt LEFT_CONTROL MINUS  &kp Z  &kp X  &kp C      &kp V             &kp B      &kp N        &kp M           &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_CONTROL BSLH
-                                      &lt 1 TAB  &mt LSHFT ESCAPE  &lt 2 RET  &lt 2 SPACE  &mt RSHFT BSPC  &lt 1 DEL
+                                      &lt 2 TAB  &mt LSHFT ESCAPE  &lt 1 RET  &lt 1 SPACE  &mt RSHFT BSPC  &lt 2 DEL
             >;
         };
 
