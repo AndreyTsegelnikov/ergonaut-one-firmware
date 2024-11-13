@@ -35,19 +35,19 @@
 
         raise_layer {
             bindings = <
-&mt LEFT_CONTROL F1      &kp F2      &kp F3     &kp F4      &kp F5       &kp F6    &kp F7          &kp F8         &kp F9       &kp F10    &kp F11       &mt RIGHT_CONTROL F12
-&mt LEFT_ALT F14         &kp F15     &kp F19    &kp F20     &kp F21      &kp F22   &kp LEFT_ARROW  &kp DOWN       &kp UP       &kp RIGHT  &kp C_VOL_DN  &mt RIGHT_ALT C_VOL_UP
-&mt LEFT_SHIFT C_REPEAT  &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp CAPS  &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp K_BACK    &mt RIGHT_SHIFT K_FORWARD
-                                                &trans      &trans       &trans    &trans          &trans         &trans
+&mt LEFT_CONTROL F1      &kp F2            &kp F3            &kp F4                                               &kp F5                                           &kp F6    &kp F7          &kp F8                &kp F9                &kp F10              &kp F11                 &mt RIGHT_CONTROL F12
+&mt LEFT_ALT F14         &mt LEFT_GUI F15  &mt LEFT_ALT F19  &mt LEFT_CONTROL C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &mt LEFT_SHIFT C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &kp F22   &kp LEFT_ARROW  &mt RIGHT_SHIFT DOWN  &mt RIGHT_CONTROL UP  &mt RIGHT_ALT RIGHT  &mt RIGHT_GUI C_VOL_DN  &mt RIGHT_ALT C_VOL_UP
+&mt LEFT_SHIFT C_REPEAT  &kp K_UNDO        &kp K_CUT         &kp K_COPY                                           &kp K_PASTE                                      &kp CAPS  &kp HOME        &kp PAGE_DOWN         &kp PAGE_UP           &kp END              &kp K_BACK              &mt RIGHT_SHIFT K_FORWARD
+                                                             &trans                                               &trans                                           &trans    &trans          &trans                &trans
             >;
         };
 
         lower_layer {
             bindings = <
-&mt LEFT_CONTROL GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp N5           &kp NUMBER_6      &kp N7             &kp N8         &kp N9     &kp N0         &mt RIGHT_CONTROL MINUS
-&mt LEFT_ALT PLUS       &kp EXCL      &kp AT        &kp HASH      &kp DLLR        &kp PRCNT        &kp CARET         &kp AMPS           &kp STAR       &kp LPAR   &kp RPAR       &mt RIGHT_ALT UNDER
-&mt LEFT_SHIFT COLON    &kp EQUAL     &kp MINUS     &kp PLUS      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp COLON  &kp BACKSLASH  &mt LEFT_SHIFT SLASH
-                                                    &trans        &trans          &trans           &trans            &trans             &trans
+&mt LEFT_CONTROL GRAVE  &kp NUMBER_1       &kp NUMBER_2     &kp NUMBER_3           &kp NUMBER_4         &kp N5           &kp NUMBER_6      &kp N7                &kp N8                  &kp N9              &kp N0              &mt RIGHT_CONTROL MINUS
+&mt LEFT_ALT PLUS       &mt LEFT_GUI EXCL  &mt LEFT_ALT AT  &mt LEFT_CONTROL HASH  &mt LEFT_SHIFT DLLR  &kp PRCNT        &kp CARET         &mt RIGHT_SHIFT AMPS  &mt RIGHT_CONTROL STAR  &mt RIGHT_ALT LPAR  &mt RIGHT_GUI RPAR  &mt RIGHT_ALT UNDER
+&mt LEFT_SHIFT COLON    &kp EQUAL          &kp MINUS        &kp PLUS               &kp LEFT_BRACE       &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SEMICOLON           &kp COLON           &kp BACKSLASH       &mt LEFT_SHIFT SLASH
+                                                            &trans                 &trans               &trans           &trans            &trans                &trans
             >;
         };
 
